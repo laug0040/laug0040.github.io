@@ -15,7 +15,7 @@ header,footer {
     box-shadow: 0 0 2px 1px black;
 }
 
-main ul {
+.hobby-list {
     list-style-type:square;
 
 }
