@@ -26,6 +26,10 @@ header,footer {
 nav ul {
     list-style-type:none;
     text-decoration:none;
+    background-color:rgb(160, 70, 70);
+    border-color:#2b0b0b;
+}
+
+nav ul:hover {
     background-color:rgb(165, 107, 107);
-    border-color:#2b0b0b
 }
