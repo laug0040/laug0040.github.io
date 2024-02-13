@@ -25,11 +25,14 @@ header,footer {
 
 nav ul {
     list-style-type:none;
-    text-decoration:none;
     background-color:rgb(161, 62, 62);
     border-color:#2b0b0b;
 }
 
 nav ul:hover {
     background-color:rgb(165, 107, 107);
+}
+
+nav ul a {
+    text-decoration:none;
 }
