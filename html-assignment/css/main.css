@@ -27,6 +27,7 @@ nav ul {
     list-style-type:none;
     background-color:rgb(161, 62, 62);
     border-style:solid;
+    border-color:rgb(84, 32, 32);
 }
 
 nav ul:hover {
