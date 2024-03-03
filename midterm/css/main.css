@@ -8,3 +8,9 @@ body {
 .webpage {
     background-color:#d4e9e7;
 }
+
+nav ul li {
+    text-align:center;
+    border-right:1px #000000;
+    display:inline-block;
+}
