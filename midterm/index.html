@@ -37,8 +37,9 @@
         </li>
         <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
     </ul>
-    <!-- forms, need input tags -->
+    <!-- forms go here -->
     <div class="form-info">
+        <!-- 2 text type forms go here -->
         <form action="">
             <label for="fullname">Your Name</label>
             <input id="fullname" type="text">
@@ -47,13 +48,22 @@
             <label for="email">Your Email</label>
             <input id="email" type="text">
         </form>
+        <!-- textarea form goes here -->
         <form action="">
             <label for="msg">Your Message</label>
             <textarea id="msg" type="text"></textarea>
         </form>
+        <!-- radio form goes here -->
         <h3>Would you like to visit the starfish?</h3>
         <form>
+            <label for="yeah">Yes</label>
+            <input type="radio" id="yeah" name="visit" value="yes">
 
+            <label for="nah">No</label>
+            <input type="radio" id="nah" name="visit" value="no">
+
+            <label for="potentially">Maybe</label>
+            <input type="radio" id="potentially" name="visit" value="maybe">
         </form>
     </div>
 </div>
