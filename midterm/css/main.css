@@ -1,3 +1,4 @@
+/* body tag, includes major stuff like background colour, font family, etc. */
 body {
     background-color:#aad4cf;
     font-family:Arial, Helvetica, sans-serif;
@@ -16,4 +17,5 @@ h1,h2,h3,h4 {
     text-align:center;
     border-right:1px solid #000000;
     display:inline-block;
+    width:100px
 }
