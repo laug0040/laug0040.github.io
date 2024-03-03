@@ -2,6 +2,9 @@ body {
     background-color:#aad4cf;
     font-family:Arial, Helvetica, sans-serif;
     margin:auto;
+}
+
+h1,h2,h3,h4 {
     font-weight:normal;
 }
 
