@@ -12,7 +12,11 @@
     <header>
         <h1>Midterm</h1>
         <nav>
-
+            <ul>
+                <li>HOME</li>
+                <li>STORY</li>
+                <li>CONTACT</li>
+            </ul>
         </nav>
         <img src="images/lone-starfish-wide.jpg" alt="Wide image banner of a Starfish">
     </header> 
@@ -39,23 +43,26 @@
     </ul>
     <!-- forms go here -->
     <div class="form-info">
+    <fieldset>
         <!-- 2 text type forms go here -->
-        <form action="">
+        <form action="index.html" method="post">
             <label for="fullname">Your Name</label>
             <input id="fullname" type="text">
         </form>
-        <form action="">
+
+        <form action="index.html" method="post">
             <label for="email">Your Email</label>
             <input id="email" type="text">
         </form>
         <!-- textarea form goes here -->
-        <form action="">
+        <form action="index.html" method="get">
             <label for="msg">Your Message</label>
             <textarea id="msg" type="text"></textarea>
         </form>
         <!-- radio form goes here -->
         <h3>Would you like to visit the starfish?</h3>
-        <form>
+
+        <form action="index.html" method="get">
             <label for="yeah">Yes</label>
             <input type="radio" id="yeah" name="visit" value="yes">
 
@@ -65,6 +72,7 @@
             <label for="potentially">Maybe</label>
             <input type="radio" id="potentially" name="visit" value="maybe">
         </form>
+    </fieldset>
     </div>
 </div>
 </body>
