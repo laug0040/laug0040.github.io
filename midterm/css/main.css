@@ -19,3 +19,7 @@ h1,h2,h3,h4 {
     display:inline-block;
     width:100px
 }
+
+.webpage header nav ul li:last-child {
+    border-right:none;
+}
