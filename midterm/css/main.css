@@ -10,6 +10,7 @@ body {
     margin:auto;
 }
 
+/* selects all headings and sets their font weight to normal */
 h1,h2,h3,h4 {
     font-weight:normal;
 }
