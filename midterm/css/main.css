@@ -15,10 +15,6 @@ h1,h2,h3,h4 {
     font-weight:normal;
 }
 
-.webpage {
-    background-color:#d4e9e7;
-}
-
 /* banner stuff */
 .banner {
     color:white;
@@ -26,6 +22,12 @@ h1,h2,h3,h4 {
 
 .banner img {
     top:auto;
+    width:650px
+}
+
+/* webpage stuff */
+.webpage {
+    background-color:#d4e9e7;
 }
 
 .webpage header nav ul li {
