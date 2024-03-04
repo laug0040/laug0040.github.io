@@ -33,6 +33,10 @@ h1,h2,h3,h4 {
     background-color:#d4e9e7;
 }
 
+.webpage header {
+    text-align:center;
+}
+
 .webpage header nav ul li {
     text-align:center;
     border-right:1px solid #000000;
