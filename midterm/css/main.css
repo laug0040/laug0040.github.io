@@ -1,13 +1,13 @@
 /* universal selector */
 * {
     box-sizing:border-box;
-    margin:auto;
 }
 
 /* body tag, includes major stuff like background colour, font family, etc. */
 body {
     background-color:#aad4cf;
     font-family:Arial, Helvetica, sans-serif;
+    margin:auto;
 }
 
 /* selects all headings and sets their font weight to normal */
@@ -36,4 +36,3 @@ h1,h2,h3,h4 {
     float:left;
 }
 
-.wrapper 
