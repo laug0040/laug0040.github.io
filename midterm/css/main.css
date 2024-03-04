@@ -31,6 +31,9 @@ h1,h2,h3,h4 {
 }
 
 .wrapper img {
+    width:100px;
     margin:25px;
     float:left;
 }
+
+.wrapper 
