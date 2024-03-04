@@ -26,6 +26,10 @@ h1,h2,h3,h4 {
     margin:auto;
 }
 
+.banner h1 {
+    top:30px;
+}
+
 /* webpage stuff */
 .webpage {
     margin:auto;
