@@ -22,7 +22,8 @@ h1,h2,h3,h4 {
 
 .banner img {
     top:auto;
-    width:650px
+    width:650px;
+    margin:auto;
 }
 
 /* webpage stuff */
@@ -43,7 +44,7 @@ h1,h2,h3,h4 {
 
 /* text wrapper stuff */
 .wrapper img {
-    width:175px;
+    width:300px;
     margin:25px;
     float:left;
 }
