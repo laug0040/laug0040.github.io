@@ -69,6 +69,10 @@ h1,h2,h3,h4 {
     float:left;
 }
 
+.wrapper p {
+    font-size:15px;
+}
+
 /* forms stuff */
 #fullname, #email, #msg {
     width:750px;
