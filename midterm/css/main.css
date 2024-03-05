@@ -11,7 +11,7 @@ body {
 }
 
 /* selects all headings and sets their font weight to normal */
-h1,h2,h3,h4 {
+h1,h2,h3 {
     font-weight:normal;
     margin-left:15px;
     height:10px;
