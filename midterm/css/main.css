@@ -29,7 +29,9 @@ h1,h2,h3,h4 {
 }
 
 .banner h1 {
-    top:30px;
+    top:100px;
+    left:150px;
+    right:150px;
     position:absolute;
 }
 
