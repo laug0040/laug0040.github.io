@@ -65,6 +65,11 @@ h1,h2,h3,h4 {
     float:left;
 }
 
+/* forms stuff */
+.form-info {
+    
+}
+
 footer {
     float:right;
     font-size:12px
