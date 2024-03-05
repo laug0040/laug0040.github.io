@@ -66,8 +66,13 @@ h1,h2,h3,h4 {
 }
 
 /* forms stuff */
-.form-info input, textarea {
+.form-info input {
     width:750px;
+}
+
+.form-info textarea {
+    width:750px;
+    height:75px;
 }
 
 footer {
