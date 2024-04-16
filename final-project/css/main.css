@@ -4,6 +4,11 @@ body {
 }
 
 /* nav */
-.Heading {
-    background-color:#0001
+.heading {
+    background-color:#0001;
+}
+
+.heading nav ul {
+    text-decoration:none;
+    list-style-type:none;
 }
