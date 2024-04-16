@@ -26,19 +26,29 @@ h1,h2,h3,h4 {
     background-color:#222222;
 }
 
-#heading nav ul .home {
-    color:black;
+#heading nav ul {
+    margin-top:0;
 }
 
 #heading nav ul li {
+    margin:25px;
+    font-weight:100;
     text-align:center;
     color:orange;
     list-style-type:none;
 }
 
-.heading img {
+#heading nav ul .home {
+    margin-top:0;
+    background-color:orange;
+    color:black;
+}
+
+.container {
     background-color:orange;
     position:relative;
+    height:150px;
+    margin-bottom:0;
 }
 
 /* background colours */
@@ -56,7 +66,16 @@ h1,h2,h3,h4 {
 
 /* forms */
 #search {
-    width:500px;
+    height:20px;
+    width:490px;
     margin-left:10px;
-    margin-right:10px;
+    margin-right:0;
+    margin-bottom:5px;
+}
+
+.fa-magnifying-glass {
+    font-size:16px;
+    margin:0;
+    border-style:solid;
+    color:orange;
 }
