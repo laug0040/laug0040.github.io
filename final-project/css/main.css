@@ -28,6 +28,14 @@ h1,h2,h3,h4 {
     position:relative;
 }
 
-.about {
+#About {
+    background-color:#ffe6ac;
+}
+
+#Services {
+    background-color:white;
+}
+
+.marketing, .video, .web, .print {
     background-color:#ffe6ac;
 }
