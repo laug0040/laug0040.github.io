@@ -4,16 +4,15 @@ body {
 }
 
 /* nav */
-.heading {
-    background-color:#0001;
+#heading {
+    background-color:;
 }
 
-.heading nav ul li {
-    color:orange;
-    text-decoration:none;
-    list-style-type:none;
-}
-
-.heading nav ul #Connect {
+#heading nav ul .home {
     color:black;
+}
+
+#heading nav ul li {
+    color:orange;
+    list-style-type:none;
 }
