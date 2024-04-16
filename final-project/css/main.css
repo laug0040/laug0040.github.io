@@ -8,7 +8,12 @@ body {
     background-color:#0001;
 }
 
-.heading nav ul {
+.heading nav ul li {
+    color:orange;
     text-decoration:none;
     list-style-type:none;
+}
+
+.heading nav ul #Connect {
+    color:black;
 }
