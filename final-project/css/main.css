@@ -108,6 +108,13 @@ p {
     font-size:34;
 }
 
+/* Marketing */
+.marketing h2 {
+    margin-top:0;
+    font-size:34;
+}
+
+
 /* background colours */
 #About {
     background-color:#ffe6ac;
