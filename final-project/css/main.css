@@ -1,9 +1,9 @@
 /* universal tags, use this for simplicity */
 body {
+    width:760px;
     font-family:"Open Sans", sans-serif;
     font-weight:normal;
     margin:auto;
-    padding:10px;
     /* overflow-x:hidden; */
 }
 
@@ -30,6 +30,7 @@ p {
 /* nav */
 #heading {
     background-color:#222;
+    width:760px;
 }
 
 #heading nav ul {
@@ -81,6 +82,21 @@ p {
     height:auto;
     position:relative;
     z-index:1;
+}
+
+/* table deco */
+table, th, td{
+    height:50px;
+    border:solid;
+    border-width:1px;
+}
+
+th {
+    background-color:#ffe6ac;
+}
+
+table {
+    width:760px;
 }
 
 /* About */
@@ -188,7 +204,91 @@ p {
     background-position:50%;
 }
 
-/* forms */
+/* Team information */
+#Team {
+    width:760px;
+}
+
+#Team h1 {
+    margin-top:30px;
+    font-size:38px;
+}
+
+/* john info */
+.john {
+    background-color:#ffe6ac;
+    margin-bottom:15px;
+}
+
+.john img {
+    width:100%;
+}
+
+.john hr {
+    border-color:#c78b06;
+    margin:10px;
+}
+
+/* bob info */
+.bob {
+    background-color:#ffe6ac;
+}
+
+.bob img {
+    width:100%;
+}
+
+.bob hr {
+    border-color:#c78b06;
+    margin:10px;
+}
+
+/* Contact information */
+#Contact {
+    width:760px;
+}
+
+#Contact h1 {
+    font-size:38px;
+}
+
+#Contact h2 {
+    font-size:34px;
+}
+
+#fullname, #email {
+    width:760px;
+    height:25px;
+}
+
+#msg {
+    width:760px;
+    height:100px;
+}
+
+#btn {
+    font-size:30px;
+    background-color:#222;
+    color:#c78b06;
+    border-style:none;
+    width:100px;
+    height:50px;
+}
+
+.gmap {
+    width:760px;
+    height:500px;
+    border-style:none;
+}
+
+.footer2 {
+    background-color:#222;
+    color:#c78b06;
+    margin:25px;
+    font-size:20px;
+}
+
+/* buttons and search */
 
 /* search */
 nav form {
@@ -295,5 +395,26 @@ nav form {
 }
 
 @media screen and (min-width:760px) {
-    
+
+    /* general values for desktop view */
+    body {
+        width:1920px;
+    }
+
+    /* heading for desktop view */
+    #heading {
+        background-color:#222;
+    }
+
+    #heading nav ul {
+        list-style-type:none;
+    }
+
+    #heading nav ul li {
+        float:left;
+    }
+
+    nav form {
+
+    }
 }
