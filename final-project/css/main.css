@@ -8,6 +8,11 @@ body {
 
 h1,h2,h3,h4 {
     font-weight:bold;
+    margin:10px;
+}
+
+p {
+    margin:10px;
 }
 
 /* google font settings
@@ -23,7 +28,7 @@ h1,h2,h3,h4 {
 
 /* nav */
 #heading {
-    background-color:#222222;
+    background-color:#222;
 }
 
 #heading nav ul {
@@ -33,20 +38,21 @@ h1,h2,h3,h4 {
 
 #heading nav ul li {
     margin:25px;
+    font-size:28px;
     font-weight:100;
     text-align:center;
-    color:orange;
+    color:#c78b06;
     list-style-type:none;
 }
 
 #heading nav ul .home {
-    margin-top:0;
-    background-color:orange;
+    margin:0;
+    background-color:#c78b06;
     color:black;
 }
 
 .container {
-    background-color:orange;
+    background-color:#c78b06;
     position:relative;
     height:150px;
     margin-bottom:0;
@@ -67,7 +73,7 @@ h1,h2,h3,h4 {
 #Connect img {
     margin:0;
     position:relative;
-    width:550px;
+    width:775px;
     height:auto;
     z-index:2;
 }
@@ -88,27 +94,39 @@ h1,h2,h3,h4 {
 /* forms */
 
 /* search */
+nav form {
+    display:flex;
+    justify-content:center;
+}
+
 #search {
-    height:20px;
-    width:490px;
-    margin-left:10px;
-    margin-right:0;
-    margin-bottom:5px;
+    margin-left:15px;
+    margin-bottom:15px;
+    height:40px;
+    width:1200px;
+    font-size:28px;
 }
 
 .fa-magnifying-glass {
-    font-size:16px;
-    margin:0;
+    margin-right:15px;
+    height:42px;
+    width:42px;
+    font-size:42px;
     border-style:solid;
-    color:orange;
+    border-width:1px;
+    color:#c78b06;
 }
 
 /* connect with us */
 .black {
     color:black;
-    background-color:orange;
+    background-color:#c78b06;
     border-style:none;
     font-size:18px;
     height:75px;
     width:175px;
+}
+
+@media screen and (min-width:760px) {
+    
 }
