@@ -398,23 +398,62 @@ nav form {
 
     /* general values for desktop view */
     body {
-        width:1920px;
+        width:1200px;
+        margin:auto;
     }
 
     /* heading for desktop view */
     #heading {
         background-color:#222;
+        width:1200px;
+        
     }
 
-    #heading nav ul {
-        list-style-type:none;
+    .container {
+        background-color:#222;
+        position:relative;
+        height:150px;
+        margin-bottom:0;
     }
 
-    #heading nav ul li {
+    .hwrapper ul {
+        display:flex;
+    }
+
+    #heading form {
+        width:50px;
+    }
+
+    /* Connect with us desktop */
+    .conect2 {
+        width:1200px;
+    }
+
+    #Connect img {
+        width:100%;
+        margin-bottom:-50px;
+    }
+
+    /* About us */
+    .about2 {
+        z-index:2;
+        width:1200px;
+        align-items:center;
+    }
+
+    .about2 h2, p{
+        margin:50px;
+        margin-right:10px;
+        margin-bottom:25px;
+    }
+
+    .about2 h2 {
+        margin-top:0;
+    }
+
+    .about2 img {
+        margin:15px;
+        width:50%;
         float:left;
-    }
-
-    nav form {
-
     }
 }
