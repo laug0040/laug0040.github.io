@@ -201,7 +201,7 @@ p {
 }
 
 /* john info */
-.john {
+.johntext {
     background-color:#ffe6ac;
     margin-bottom:15px;
 }
@@ -210,13 +210,13 @@ p {
     width:100%;
 }
 
-.john hr {
+.johntext hr {
     border-color:#c78b06;
     margin:10px;
 }
 
 /* bob info */
-.bob {
+.bobtext {
     background-color:#ffe6ac;
 }
 
@@ -224,7 +224,7 @@ p {
     width:100%;
 }
 
-.bob hr {
+.bobtext hr {
     border-color:#c78b06;
     margin:10px;
 }
@@ -435,10 +435,14 @@ nav form {
 
     #Connect img {
         width:100%;
-        margin-bottom:-20px;
+        margin:-19px;
     }
 
     /* About us */
+    #About {
+        align-items:center;
+    }
+
     .about2 {
         z-index:2;
         width:1200px;
@@ -464,29 +468,43 @@ nav form {
     /* Our Services info, should be grid stuff here */
     #Services {
         width:1200px;
-        display:grid;
-        grid-template-columns:repeat(3, 1fr);
-        grid-template-rows:repeat(2, 1fr);
         margin:0;
     }
 
+    .gridwrapper {
+        display:grid;
+        grid-template-columns:repeat(6, 1fr);
+        grid-template-rows:repeat(2, 1fr);
+        height:50%;
+    }
+
     .digital {
+        grid-column:1 / span 3;
+        grid-row:1;
         width:100%;
     }
 
     .marketing {
+        grid-column:4 / span 3;
+        grid-row:1;
         width:100%;
     }
 
     .video {
+        grid-column:1 / span 2;
+        grid-row:2;
         width:100%;
     }
 
     .web {
+        grid-column:3 / span 2;
+        grid-row:2;
         width:100%;
     }
 
     .print {
+        grid-column:5 / span 2;
+        grid-row:2;
         width:100%;
     }
 
@@ -497,10 +515,42 @@ nav form {
 
     /* Team */
     #Team {
-        width:50%;
+        width:1200px;
     }
 
-    .john img {
-        float:left;
+    .ceo-cfo {
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows:repeat(2,1fr);
+        background-color:#ffe6ac;
+        height:800px;
     }
+
+    .ceo-cfo br {
+        display:none;
+    }
+
+    .john {
+        grid-column:1;
+        grid-row:1;
+    }
+
+    .johntext {
+        grid-column:2;
+        grid-row:1;
+        margin-bottom:0;
+    }
+
+    .bob {
+        grid-column:2;
+        grid-row:2;
+        height:400px;
+    }
+
+    .bobtext {
+        grid-column:1;
+        grid-row:2;
+    }
+
+
 }
