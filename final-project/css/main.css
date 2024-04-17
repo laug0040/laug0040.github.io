@@ -1,5 +1,15 @@
 /* hi rob, sorry for the super long css and scuffed desktop view, i was really struggling to put it together and i really did try my best.  thank you for the great course btw, you're a great proof. */
 
+/* google font settings
+.open-sans {
+  font-family:"Open Sans", sans-serif;
+  font-optical-sizing:auto;
+  font-weight:<weight>;
+  font-style:normal;
+  font-variation-settings:
+    "wdth" 100;
+} * /
+
 /* universal tags, use this for simplicity */
 body {
     width:760px;
@@ -17,16 +27,6 @@ h1,h2,h3,h4 {
 p {
     margin:10px;
 }
-
-/* google font settings
-.open-sans {
-  font-family:"Open Sans", sans-serif;
-  font-optical-sizing:auto;
-  font-weight:<weight>;
-  font-style:normal;
-  font-variation-settings:
-    "wdth" 100;
-} * /
 
 /* nav */
 #heading {
@@ -465,27 +465,42 @@ nav form {
     #Services {
         width:1200px;
         display:grid;
-        grid-template-columns:repeat(2,1fr);
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows:repeat(2, 1fr);
         margin:0;
     }
 
     .digital {
-        width:45%;
+        width:100%;
     }
 
     .marketing {
-        width:45%;
+        width:100%;
     }
 
     .video {
-        width:45%;
+        width:100%;
     }
 
     .web {
-        width:45%;
+        width:100%;
     }
 
     .print {
-        width:45%;
+        width:100%;
+    }
+
+    /* Vision */
+    #Vision {
+        width:100%;
+    }
+
+    /* Team */
+    #Team {
+        width:50%;
+    }
+
+    .john img {
+        float:left;
     }
 }
