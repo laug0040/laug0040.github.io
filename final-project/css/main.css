@@ -1,3 +1,5 @@
+/* hi rob, sorry for the super long css and scuffed desktop view, i was really struggling to put it together and i really did try my best.  thank you for the great course btw, you're a great proof. */
+
 /* universal tags, use this for simplicity */
 body {
     width:760px;
@@ -24,8 +26,7 @@ p {
   font-style:normal;
   font-variation-settings:
     "wdth" 100;
-}
- * /
+} * /
 
 /* nav */
 #heading {
@@ -82,21 +83,6 @@ p {
     height:auto;
     position:relative;
     z-index:1;
-}
-
-/* table deco */
-table, th, td{
-    height:50px;
-    border:solid;
-    border-width:1px;
-}
-
-th {
-    background-color:#ffe6ac;
-}
-
-table {
-    width:760px;
 }
 
 /* About */
@@ -275,12 +261,30 @@ table {
     height:50px;
 }
 
+/* table deco */
+table, th, td{
+    height:50px;
+    border:solid;
+    border-width:1px;
+}
+
+th {
+    background-color:#ffe6ac;
+}
+
+table {
+    width:760px;
+}
+
+
+/* Google maps info */
 .gmap {
     width:760px;
     height:500px;
     border-style:none;
 }
 
+/* footer background colour and stuff */
 .footer2 {
     background-color:#222;
     color:#c78b06;
@@ -406,7 +410,7 @@ nav form {
     #heading {
         background-color:#222;
         width:1200px;
-        
+        display:flex;
     }
 
     .container {
@@ -425,13 +429,13 @@ nav form {
     }
 
     /* Connect with us desktop */
-    .conect2 {
+    .connect2 {
         width:1200px;
     }
 
     #Connect img {
         width:100%;
-        margin-bottom:-50px;
+        margin-bottom:-20px;
     }
 
     /* About us */
@@ -455,5 +459,33 @@ nav form {
         margin:15px;
         width:50%;
         float:left;
+    }
+
+    /* Our Services info, should be grid stuff here */
+    #Services {
+        width:1200px;
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        margin:0;
+    }
+
+    .digital {
+        width:45%;
+    }
+
+    .marketing {
+        width:45%;
+    }
+
+    .video {
+        width:45%;
+    }
+
+    .web {
+        width:45%;
+    }
+
+    .print {
+        width:45%;
     }
 }
